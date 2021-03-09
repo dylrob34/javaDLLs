@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  dllmain.cpp
+     Creating library D:\dev\c++\javaRecorder\javaRecorder\x64\Release\javaRecorder.lib and object D:\dev\c++\javaRecorder\javaRecorder\x64\Release\javaRecorder.exp
+  Generating code
+  43 of 43 functions (100.0%) were compiled.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  javaRecorder.vcxproj -> D:\dev\c++\javaRecorder\javaRecorder\x64\Release\javaRecorder.dll

@@ -1,0 +1,2 @@
+D:\dev\c++\javaRecorder\javaRecorder\x64\Debug\javaRecorder.dll
+D:\dev\c++\javaRecorder\javaRecorder\x64\Debug\javaRecorder.pdb
