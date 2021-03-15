@@ -103,6 +103,22 @@ JNIEXPORT jstring JNICALL Java_main_DeviceControl_getAxisTwoPos
 JNIEXPORT jstring JNICALL Java_main_DeviceControl_getAxisTwoRate
   (JNIEnv *, jclass);
 
+/*
+ * Class:     main_DeviceControl
+ * Method:    execute
+ * Signature: ([Ljava/lang/String;)V
+ */
+JNIEXPORT void JNICALL Java_main_DeviceControl_execute
+  (JNIEnv *, jclass, jobjectArray);
+
+/*
+ * Class:     main_DeviceControl
+ * Method:    record
+ * Signature: (Ljava/lang/String;I)V
+ */
+JNIEXPORT void JNICALL Java_main_DeviceControl_record
+  (JNIEnv *, jclass, jstring, jint);
+
 #ifdef __cplusplus
 }
 #endif
