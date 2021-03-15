@@ -119,6 +119,30 @@ JNIEXPORT void JNICALL Java_main_DeviceControl_execute
 JNIEXPORT void JNICALL Java_main_DeviceControl_record
   (JNIEnv *, jclass, jstring, jint);
 
+/*
+ * Class:     main_DeviceControl
+ * Method:    getPV
+ * Signature: ()Ljava/lang/String;
+ */
+JNIEXPORT jstring JNICALL Java_main_DeviceControl_getPV
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     main_DeviceControl
+ * Method:    getSP
+ * Signature: ()Ljava/lang/String;
+ */
+JNIEXPORT jstring JNICALL Java_main_DeviceControl_getSP
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     main_DeviceControl
+ * Method:    sendManualSP
+ * Signature: (Ljava/lang/String;)V
+ */
+JNIEXPORT void JNICALL Java_main_DeviceControl_sendManualSP
+  (JNIEnv *, jclass, jstring);
+
 #ifdef __cplusplus
 }
 #endif
