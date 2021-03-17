@@ -17,6 +17,22 @@ JNIEXPORT void JNICALL Java_main_DeviceControl_load
 
 /*
  * Class:     main_DeviceControl
+ * Method:    initTemperature
+ * Signature: ()V
+ */
+JNIEXPORT void JNICALL Java_main_DeviceControl_initTemperature
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     main_DeviceControl
+ * Method:    initRate
+ * Signature: ()V
+ */
+JNIEXPORT void JNICALL Java_main_DeviceControl_initRate
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     main_DeviceControl
  * Method:    powerOn
  * Signature: ()V
  */
@@ -109,6 +125,14 @@ JNIEXPORT jstring JNICALL Java_main_DeviceControl_getAxisTwoRate
  * Signature: ([Ljava/lang/String;)V
  */
 JNIEXPORT void JNICALL Java_main_DeviceControl_execute
+  (JNIEnv *, jclass, jobjectArray);
+
+/*
+ * Class:     main_DeviceControl
+ * Method:    verify
+ * Signature: ([Ljava/lang/String;)V
+ */
+JNIEXPORT void JNICALL Java_main_DeviceControl_verify
   (JNIEnv *, jclass, jobjectArray);
 
 /*
