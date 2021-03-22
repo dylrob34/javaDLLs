@@ -33,6 +33,14 @@ JNIEXPORT void JNICALL Java_main_DeviceControl_initRate
 
 /*
  * Class:     main_DeviceControl
+ * Method:    getUUTData
+ * Signature: ()[Ljava/lang/String;
+ */
+JNIEXPORT jobjectArray JNICALL Java_main_DeviceControl_getUUTData
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     main_DeviceControl
  * Method:    powerOn
  * Signature: ()V
  */
