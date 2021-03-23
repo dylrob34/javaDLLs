@@ -41,6 +41,14 @@ JNIEXPORT jobjectArray JNICALL Java_main_DeviceControl_getUUTData
 
 /*
  * Class:     main_DeviceControl
+ * Method:    sendComPort
+ * Signature: (Ljava/lang/String;)V
+ */
+JNIEXPORT void JNICALL Java_main_DeviceControl_sendComPort
+  (JNIEnv *, jclass, jstring);
+
+/*
+ * Class:     main_DeviceControl
  * Method:    powerOn
  * Signature: ()V
  */
