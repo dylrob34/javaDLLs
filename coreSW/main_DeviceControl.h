@@ -138,10 +138,10 @@ JNIEXPORT jstring JNICALL Java_main_DeviceControl_getAxisTwoRate
 /*
  * Class:     main_DeviceControl
  * Method:    execute
- * Signature: ([Ljava/lang/String;)V
+ * Signature: (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
  */
 JNIEXPORT void JNICALL Java_main_DeviceControl_execute
-  (JNIEnv *, jclass, jobjectArray);
+  (JNIEnv *, jclass, jstring, jstring, jstring, jobjectArray);
 
 /*
  * Class:     main_DeviceControl
