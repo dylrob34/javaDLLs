@@ -17,22 +17,6 @@ JNIEXPORT void JNICALL Java_main_DeviceControl_load
 
 /*
  * Class:     main_DeviceControl
- * Method:    initTemperature
- * Signature: ()V
- */
-JNIEXPORT void JNICALL Java_main_DeviceControl_initTemperature
-  (JNIEnv *, jclass);
-
-/*
- * Class:     main_DeviceControl
- * Method:    initRate
- * Signature: ()V
- */
-JNIEXPORT void JNICALL Java_main_DeviceControl_initRate
-  (JNIEnv *, jclass);
-
-/*
- * Class:     main_DeviceControl
  * Method:    getUUTData
  * Signature: ()[Ljava/lang/String;
  */
