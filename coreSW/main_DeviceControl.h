@@ -57,6 +57,22 @@ JNIEXPORT void JNICALL Java_main_DeviceControl_setVoltage
 
 /*
  * Class:     main_DeviceControl
+ * Method:    getVoltage
+ * Signature: ()Ljava/lang/String;
+ */
+JNIEXPORT jstring JNICALL Java_main_DeviceControl_getVoltage
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     main_DeviceControl
+ * Method:    getStatus
+ * Signature: ()Ljava/lang/String;
+ */
+JNIEXPORT jstring JNICALL Java_main_DeviceControl_getStatus
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     main_DeviceControl
  * Method:    sendAxisOnePos
  * Signature: (Ljava/lang/String;)V
  */
@@ -174,6 +190,14 @@ JNIEXPORT jstring JNICALL Java_main_DeviceControl_getSP
  */
 JNIEXPORT void JNICALL Java_main_DeviceControl_sendManualSP
   (JNIEnv *, jclass, jstring);
+
+/*
+ * Class:     main_DeviceControl
+ * Method:    stopUpdatingTemperature
+ * Signature: ()V
+ */
+JNIEXPORT void JNICALL Java_main_DeviceControl_stopUpdatingTemperature
+  (JNIEnv *, jclass);
 
 #ifdef __cplusplus
 }
